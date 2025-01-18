@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+:root {
+  --font-family: "Roboto", sans-serif;
+  --second-family: "SF UI Display", sans-serif;
+}
+
+body {
+  background-color: #1f2129;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0em;
+  color: #fff;
+  margin: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
