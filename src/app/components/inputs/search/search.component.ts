@@ -37,8 +37,15 @@ export class SearchComponent {
     {label: 'Контакты', id: 6},
   ]
 
+
   toggleSearch(active: boolean): void {
     this.searchOpen = active;
+
+    if (window.innerWidth < 970) {
+      this.menuOpen = !this.menuOpen;
+    } else {
+      return
+    }
   }
 
   openMenu(): void {
