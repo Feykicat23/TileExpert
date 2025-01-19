@@ -78,7 +78,7 @@
     }
   }
 
-  .right-part {
+  .right-section {
     display: flex;
     align-items: center;
     margin-left: 16px;
@@ -150,12 +150,12 @@
       }
     }
 
-    .right-part {
+    .right-section {
       margin: 0;
       padding: 0 8px;
     }
 
-    .right-part svg {
+    .right-section svg {
       display: none;
     }
 
@@ -169,7 +169,6 @@
       i {
         padding: 0 8px;
       }
-
 
       ul {
         display: contents;

@@ -71,15 +71,15 @@
   margin-right: 8px;
   font-size: 23px;
 }
-.navbar .right-part {
+.navbar .right-section {
   display: flex;
   align-items: center;
   margin-left: 16px;
 }
-.navbar .right-part .ri-notification-3-line {
+.navbar .right-section .ri-notification-3-line {
   position: relative;
 }
-.navbar .right-part .ri-notification-3-line:after {
+.navbar .right-section .ri-notification-3-line:after {
   min-width: 21px;
   height: 16px;
   background-color: #cc1910;
@@ -99,7 +99,7 @@
   letter-spacing: 0em;
   color: #fff;
 }
-.navbar .right-part svg {
+.navbar .right-section svg {
   margin-left: 12px;
 }
 .navbar .ri-menu-fill {
@@ -133,11 +133,11 @@
   .navbar .navbar-links i {
     margin-right: 0 !important;
   }
-  .navbar .right-part {
+  .navbar .right-section {
     margin: 0;
     padding: 0 8px;
   }
-  .navbar .right-part svg {
+  .navbar .right-section svg {
     display: none;
   }
   .navbar .md-right-part {

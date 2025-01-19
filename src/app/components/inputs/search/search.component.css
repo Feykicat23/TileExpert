@@ -3,7 +3,7 @@
   position: relative;
   display: flex;
   align-items: center;
-  transition: 0.8s ease;
+  transition: 0.6s ease-in-out;
 }
 .search-container .search-input {
   right: 10px;
@@ -52,6 +52,7 @@
   }
 }
 .search-container .search-btn svg {
+  display: inline-flex;
   fill: #333;
   transition: transform 0.3s ease;
 }
@@ -144,7 +145,7 @@
   justify-content: space-between;
 }
 .search-container .search-menu .right-part .input-container {
-  position: relative; /* Для позиционирования надписи */
+  position: relative;
   max-width: 439px;
   height: 46px;
 }
@@ -231,7 +232,12 @@
 }
 
 @media (max-width: 970px) {
+  .search {
+    height: 40px;
+    width: 40px;
+  }
   .search-container {
+    position: fixed;
     background-color: unset;
     transition: none;
   }
@@ -246,7 +252,9 @@
     padding: 4px 16px;
     z-index: 9999;
     align-items: unset;
+    will-change: auto;
     transition: none;
+    transform: translate3d(0, 0, 0);
   }
   .search-container.active .search-input {
     max-width: unset;

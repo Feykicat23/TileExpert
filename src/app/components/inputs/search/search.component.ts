@@ -43,8 +43,6 @@ export class SearchComponent {
 
     if (window.innerWidth < 970) {
       this.menuOpen = !this.menuOpen;
-    } else {
-      return
     }
   }
 

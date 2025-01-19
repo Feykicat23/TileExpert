@@ -6,6 +6,9 @@ $primary-color: #cbcbbe;
 }
 
 body {
+  form, input, textarea {
+    font-size: 16px;
+  }
   background-color: $primary-color;
   font-family: var(--font-family);
   font-weight: 400;
